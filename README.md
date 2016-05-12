@@ -1,0 +1,1 @@
+PowerShell is full of "gotchas" - little things that just get in your way and are hard to figure out on your own. This short book is intended to help you figure them out and avoid them.
