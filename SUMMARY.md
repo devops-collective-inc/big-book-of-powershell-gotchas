@@ -23,5 +23,5 @@
 * [Properties vs. Values](manuscript/properties-vs-values.md)
 * [Remote Variables](manuscript/remote-variables.md)
 * [New-Object PSObject vs. PSCustomObject](manuscript/new-object_psobject_vs_pscustomobject.md)
-* Running Something as the "Currently Logged-in User"
+* [Running Something as the "Currently Logged-in User"](running_something_as_the_currently_logged-in_user.md)
 
