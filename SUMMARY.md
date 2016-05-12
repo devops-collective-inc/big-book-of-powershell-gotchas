@@ -22,5 +22,5 @@
 * [These aren't Your Father's Commands](manuscript/these-arent-your-fathers-commands.md)
 * [Properties vs. Values](manuscript/properties-vs-values.md)
 * [Remote Variables](manuscript/remote-variables.md)
-* [New-Object PSObject vs. PSCustomObject](new-object_psobject_vs_pscustomobject.md)
+* [New-Object PSObject vs. PSCustomObject](manuscript/new-object_psobject_vs_pscustomobject.md)
 
