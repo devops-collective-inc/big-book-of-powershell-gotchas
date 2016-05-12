@@ -18,9 +18,9 @@
 * [$ Isn't Part of the Variable Name](manuscript/isnt-part-of-the-variable-name.md)
 * [Use the Pipeline, Not an Array](manuscript/use-the-pipeline-not-an-array.md)
 * [Backtick, Grave Avvent, Escape](manuscript/backtick-grave-accent-escape.md)
+* [These aren't Your Father's Commands](manuscript/these-arent-your-fathers-commands.md)
 * [A Crowd isn't an Individual](manuscript/a-crowd-isnt-an-individual.md)
    * Commands' Default Output Can Lie
-* [These aren't Your Father's Commands](manuscript/these-arent-your-fathers-commands.md)
 * [Properties vs. Values](manuscript/properties-vs-values.md)
 * [Remote Variables](manuscript/remote-variables.md)
 * [New-Object PSObject vs. PSCustomObject](manuscript/new-object_psobject_vs_pscustomobject.md)
