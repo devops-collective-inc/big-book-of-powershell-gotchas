@@ -17,6 +17,5 @@ use-the-pipeline-not-an-array.md
 backtick-grave-accent-escape.md
 a-crowd-isnt-an-individual.md
 these-arent-your-fathers-commands.md
-holding-page-for-images.md
 properties-vs-values.md
 remote-variables.md
