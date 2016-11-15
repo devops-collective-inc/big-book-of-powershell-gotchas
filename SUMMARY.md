@@ -25,5 +25,6 @@
 * [Remote Variables](manuscript/remote-variables.md)
 * [New-Object PSObject vs. PSCustomObject](manuscript/new-object_psobject_vs_pscustomobject.md)
 * [Running Something as the "Currently Logged-in User"](manuscript/running_something_as_the_currently_logged-in_user.md)
+   * Writing to SQL Server
 * [Commands that Need a User Profile May Fail When Run Remotely](manuscript/commands_that_need_a_user_profile_may_fail_when_ru.md)
 
