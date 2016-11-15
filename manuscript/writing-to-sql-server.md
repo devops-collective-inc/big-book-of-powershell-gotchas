@@ -7,7 +7,7 @@ Assume that you have SQL Server Express installed locally. You've created in it 
 $cola = "Data to go into ColumnA"
 $colb = "Data to go into ColumnB"
 
-$connection_string = "Server=.\SQLExpress;AttachDbFilename=C:\Myfiles\mydb.mdf;Database=dbname;Trusted_Connection=Yes;"
+$connection_string = "Server=.\SQLExpress;AttachDbFilename=C:\Myfiles\mydb.mdf;Database=mydb;Trusted_Connection=Yes;"
 $connection = New-Object System.Data.SqlClient.SqlConnection
 $connection.ConnectionString = $connection_string
 $connection.Open()
