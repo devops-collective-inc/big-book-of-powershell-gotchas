@@ -21,4 +21,26 @@ $command.ExecuteNonQuery()
 $connection.close()
 ```
 
-You can insert lots of values by just looping through the three lines that define the SQL statement and execute it.
+You can insert lots of values by just looping through the three lines that define the SQL statement and execute it:
+
+```
+$cola = @('Value1','Value2','Value3')
+$colb = @('Stuff1','Stuff2','Stuff3')
+
+$connection_string = "Server=.\SQLExpress;AttachDbFilename=C:\Myfiles\mydb.mdf;Database=mydb;Trusted_Connection=Yes;"
+$connection = New-Object System.Data.SqlClient.SqlConnection
+$connection.ConnectionString = $connection_string
+$connection.Open()
+$command = New-Object System.Data.SqlClient.SqlCommand
+$command.Connection = $connection
+
+for ($i=0; $i -lt 3; $i++) {
+  $sql = "INSERT INTO MYTABLE (ColumnA,ColumnB) VALUES('$($cola[$i])','$($colb[$i])')"
+  $command.CommandText = $sql
+  $command.ExecuteNonQuery()
+}
+
+$connection.close()
+```
+
+It's just as easy to run UPDATE or DELETE queries in exactly the same way. SELECT queries use ExecuteReader() instead of ExecuteNonQuery(), and return a SqlDataReader object that you can use to read column data or advance to the next row.
